@@ -17,7 +17,7 @@ def remove_outliers(df, col):
     return df[(df[col] >= Q1 - 1.5 * IQR) & (df[col] <= Q3 + 1.5 * IQR)]
 
 def load_data():
-    df = pd.read_excel("data/housedata.xlsx")
+    df = pd.read_excel("data/YOUR_DATABASE")
 
     df["آسانسور"] = df["آسانسور"].apply(convert_bool)
     df["پارکینگ"]  = df["پارکینگ"].apply(convert_bool)
