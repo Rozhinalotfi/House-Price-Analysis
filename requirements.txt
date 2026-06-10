@@ -2,7 +2,7 @@ cloudpickle==3.1.2
 et_xmlfile==2.0.0
 joblib==1.5.3
 llvmlite==0.47.0
-narwhals==2.22.0
+narwhals==2.22.1
 numba==0.65.1
 numpy==2.4.6
 openpyxl==3.1.5
@@ -15,5 +15,5 @@ shap==0.52.0
 six==1.17.0
 slicer==0.0.8
 threadpoolctl==3.6.0
-tqdm==4.67.3
+tqdm==4.68.2
 xgboost==3.2.0
